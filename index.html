@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Master - Scroll Animation</title>
+    <!-- ADDED CACHE BUSTER TO FORCE CSS RELOAD -->
+    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ─── HERO: Scroll-pinned sequence (first folder) ─── -->
+    <section class="hero-section" id="hero">
+        <div class="canvas-container">
+            <canvas id="hero-canvas"></canvas>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="fade-in-text">Master Your Move</h1>
+        </div>
+    </section>
+
+    <!-- ─── SECOND SECTION: Scroll-pinned sequence (oops folder) ─── -->
+    <section class="second-section" id="second">
+        <div class="canvas-container">
+            <canvas id="second-canvas"></canvas>
+            <div class="overlay-second"></div>
+        </div>
+        <div class="second-content">
+            <h2>The Next Dimension</h2>
+        </div>
+    </section>
+
+    <!-- ─── THIRD SECTION: Scroll-pinned sequence (third folder) ─── -->
+    <section class="third-section" id="third">
+        <div class="third-sticky-wrapper">
+            <div class="canvas-container-half" id="third-canvas-container">
+                <canvas id="third-canvas"></canvas>
+                <div class="overlay-third"></div>
+            </div>
+            <div class="third-content-right">
+                <h2 class="seq-text text-1">Every move tells a story.</h2>
+                <h2 class="seq-text text-2">Where strategy becomes art.</h2>
+                <h2 class="seq-text text-3">The Queen is ready to sacrifice</h2>
+            </div>
+            <div class="third-content-full">
+                <h1 class="seq-text text-final">Are you ready?</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ADDED CACHE BUSTER TO FORCE JS RELOAD -->
+    <script src="script.js?v=10"></script>
+</body>
+</html>
